@@ -10,7 +10,7 @@ class PurchaseOrderSerializer(serializers.ModelSerializer):
     class Meta:
         model = PurchaseOrder
         fields = '__all__'
-class Performance(serializers.ModelSerializer):
-    class Meta:
-        model = HistoricalPerformance
-        fields = '__all__'
+# class Performance(serializers.ModelSerializer):
+#     class Meta:
+#         model = HistoricalPerformance
+#         fields = '__all__'
